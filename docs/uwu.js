@@ -1,16 +1,9 @@
-function uwu(url) {
-  window.location = url;
-}
-
-function owo() {
+function uwu() {
   let randint = Math.round(Math.random()) * 3;
-  var newURL;
 
   if (randint === 1) {
-    newURL = 'https://batemadevelopment.com';
+    window.location.replace('https://batemadevelopment.com');
   } else if (randint === 2) {
-    newURL = 'https://dev.webalina.batemadevelopment.com';
+    window.location.replace('https://dev.webalina.batemadevelopment.com');
   }
-
-  uwu(newURL);
 }
