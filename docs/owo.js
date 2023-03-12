@@ -6,7 +6,7 @@ function uwu() {
   } else if (randint === 1) {
     window.location.replace('https://freeopenai.batemadevelopment.com');
   } else if (randint === 2) {
-    window.location.replace('https://luni.is-a.dev');
+    window.location.replace('https://corndogbar.batemadevelopment.com/');
   } else if (randint === 4) {
     window.location.replace('https://blinkingterminal.batemadevelopment.com');
   }
